@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "claude-cli": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Claude CLI",
+      "options": {
+        "baseURL": "http://localhost:3000/v1",
+        "apiKey": "sk-unused"
+      },
+      "models": {
+        "claude-code": {
+          "name": "Claude Code",
+          "limit": {
+            "context": 200000,
+            "output": 16384
+          }
+        }
+      }
+    }
+  }
+}
