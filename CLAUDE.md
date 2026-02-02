@@ -12,7 +12,7 @@ http-claude is an HTTP gateway that bridges web requests to the Claude CLI. It p
 ## Commands
 
 ```bash
-bun run dev       # Start server with hot reload (--hot)
+bun run dev       # Start server with hot reload
 bun run start     # Start server normally
 ```
 
